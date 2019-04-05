@@ -1,0 +1,136 @@
+/* Set body Margin, border and Padding */
+body {
+    padding:0;
+    border:0;
+    margin:0;
+}
+
+/* horizontal line */
+hr {
+    border:0;
+    background-color: #e6e6e6;
+    height: 2px;
+}
+
+/* header image */
+
+.img_title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+    background-size: cover;
+    align-items: center;
+}
+
+/* header image text */
+
+.title_word {
+    max-width: 780px;
+    position: absolute;
+    font-size: 36px;
+    font-family:'Roboto Slab', serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+
+/* Profile */
+.profile {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+/* profile image */
+.profile_img {
+    border: 1px, white;
+    margin-top: -50px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+/* author */
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+/* update date */
+.update_date {
+    font-style: italic; 
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+/* aticle group */
+.articles {
+    /* center and set width to 66.7 */
+    margin: auto;
+    width: 66.7%;
+}
+
+/* an article */
+.article {
+    /* set blank to top and bottom */
+    /* between an article and an article: 120px */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* list of number */
+.number {
+    /* set position left 40px. */
+    margin-left: -80px;
+    padding-right: 40px;
+    font-size: 36px;
+    color: rgb(0, 0, 0, 0.25);
+}
+
+/* article heading */
+.heading {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+/* address (link) */
+.link {
+    /* set to block element */
+    display: block;
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+/* when hover */
+.link:hover {
+    text-decoration: underline;
+}
+
+/* article text */
+.text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 20px;
+    color: rgb(51, 51, 51);
+}
+
+/* recommendation text */
+.recommendation {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* image */
+.img_text {
+    width: 100%;
+}

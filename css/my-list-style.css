@@ -1,0 +1,82 @@
+/**
+ TODO(you): Add CSS for the list that you create yourself!
+*/
+/* Set body Margin, border and Padding */
+body {
+    padding:0;
+    border:0;
+    margin:0;
+    background:url(https://blog.verisign.com/wp-content/uploads/ThinkstockPhotos-537331500.jpg);
+    background-size: cover;
+}
+
+/* horizontal line */
+hr {
+    border:0;
+    background-color: #e6e6e6;
+    height: 2px;
+}
+
+/* header image */
+
+.img_title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_pic {
+    object-fit:cover;
+    height: 90%;
+    filter: grayscale(1) blur(1px);
+}
+
+/* header image text */
+
+.title_word {
+    max-width: 780px;
+    position: absolute;
+    font-size: 36px;
+    font-family:'Roboto Slab', serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+/* aticle group */
+.articles {
+    /* center and set width to 66.7 */
+    margin: auto;
+    width: 66.7%;
+    color: white;
+}
+
+/* an article */
+.article {
+    /* set blank to top and bottom */
+    /* between an article and an article: 120px */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* article heading */
+.heading {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+/* address (link) */
+.link {
+    /* set to block element */
+    display: block;
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+/* when hover */
+.link:hover {
+    text-decoration: underline;
+}
